@@ -39,7 +39,7 @@
 .lowerContext{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 96%;
     height: auto;
     background:black;
     opacity: 0.8;
@@ -54,6 +54,8 @@
     height: auto;
     background:black;
     padding-top: 0.2rem;
+    padding: 0.1rem;
+    padding-right: 0.4rem;
     border-radius: 12px;
     border-right: 0.5px solid #67036ed1;
     box-shadow: rgba(74, 7, 129, 0.24) 0px 3px 8px;

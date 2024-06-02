@@ -332,7 +332,7 @@ const Alertchart2 = () => {
     return (
         <div className='chartRightContent'>    
           <p>Alerts Over Time</p>
-          <ResponsiveContainer width="100%" height={200}>
+          <ResponsiveContainer width="100%" height={223}>
             <LineChart data={alertsOverTimeArray}>
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="time" tick={{ fontSize: 9 }}/>

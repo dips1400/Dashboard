@@ -5995,7 +5995,7 @@ const AnglePieChart = () => {
           </Pie>
           <Tooltip wrapperStyle={{ fontSize: "12px" }} />
         </PieChart>
-        <p style={{color:"#c515d0",fontSize:"11px"}}>Miss Attack at higher risk</p>
+        <p style={{color:"#c515d0",fontSize:"11px",paddingBottom:"2rem"}}>Miss Attack at higher risk</p>
       </ResponsiveContainer>
     </div>
   );
