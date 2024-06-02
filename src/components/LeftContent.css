@@ -1,0 +1,83 @@
+.leftContent{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+
+.upperContext{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.scatterplot{
+    width: 50%;
+    height: auto;
+    background:black;
+    padding-top: 0.2rem;
+    border-radius: 12px;
+    border-right: 0.5px solid #67036ed1;
+    box-shadow: rgba(74, 7, 129, 0.24) 0px 3px 8px;
+}
+
+.scatterplot p{
+    font-size: larger;
+    color: #67036eee;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}
+
+.scatter{
+    width: 100%;
+}
+
+.lowerContext{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background:black;
+    opacity: 0.8;
+    padding: 1rem;
+    border-radius: 12px;
+    border-right: 0.5px solid #67036ed1;
+    box-shadow: rgba(74, 7, 129, 0.24) 0px 3px 8px;
+}
+
+.graph{
+    width: 50%;
+    height: auto;
+    background:black;
+    padding-top: 0.2rem;
+    border-radius: 12px;
+    border-right: 0.5px solid #67036ed1;
+    box-shadow: rgba(74, 7, 129, 0.24) 0px 3px 8px;
+}
+
+.graphContainer{
+    width: 100%;
+    height: auto;
+}
+
+.graphContainer p {
+    font-size: larger;
+    color: #67036eee;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}
+
+.lowerContext p{
+    font-size: larger;
+    color: #67036eee;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lexend:wght@100..900&family=Vollkorn+SC:wght@400;600;700;900&display=swap');
+
+.rightContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 0.4rem;
+    width: 100%;
+    /* background:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ); */
+    /* border-radius: 10px; */
+    /* box-shadow:  rgba(84, 22, 159, 0.411) 0px 5px 10px 0px; */
+    height: auto;
+}
+
+.rightContainer p{
+    font-size: larger;
+    color: #67036eee;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}
+
+.upperConatiner{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 0.7rem;
+}
+
+.upperConatinerLeft{
+    width: 50%;
+    height: auto;
+    border-right: 0.5px solid #67036ed1;
+    box-shadow: rgba(74, 7, 129, 0.24) 0px 3px 8px;
+    border-radius: 12px;
+}
+
+.upperConatinerRight{
+    width: 50%;
+    height: auto;
+    background:black;
+    border-right: 0.5px solid #67036ed1;
+    box-shadow: rgba(74, 7, 129, 0.24) 0px 3px 8px;
+    border-radius: 12px;
+}
+
+.piechart{
+    width: 100%;
+    height: 200px;
+    padding: 0.5rem;
+}
+
+.piechart p{
+    color: rgba(84, 22, 159, 0.893);
+    font-size:medium;
+    /* margin-top: 0.1rem; */
+}
+
+.chartleftContent{
+    background:black;
+    padding: 0.5rem;
+    width: 100%;
+    border-right: 0.5px solid #67036ed1;
+    box-shadow: rgba(74, 7, 129, 0.24) 0px 3px 8px;
+    border-radius: 12px;
+}
+
+.chartleftContent p{
+    color: rgba(84, 22, 159, 0.893);
+    font-size:medium;
+}
+
+.chartRightContent{
+    background:black;
+    padding: 0.5rem;
+    width: 100%;
+    height: auto;
+    border-right: 0.5px solid #67036ed1;
+    box-shadow: rgba(74, 7, 129, 0.24) 0px 3px 8px;
+    border-radius: 12px;
+}
+
+.chartRightContent p{
+    color: rgba(84, 22, 159, 0.893);
+    font-size:medium;
+}
+
+.lowerContainer{
+    margin-top: 1.5rem;
+    height: auto;
+    border-right: 0.5px solid #67036ed1;
+    box-shadow: rgba(74, 7, 129, 0.24) 0px 3px 8px;
+    border-radius: 12px;
+}

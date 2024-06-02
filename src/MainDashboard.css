@@ -1,0 +1,28 @@
+.Maincontainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.Dashboardheader{
+    width: 100%;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.left-content{
+    height: auto;
+    width: 60%;
+}
+
+.right-content{
+    height: auto;
+    width: 40%;
+    display: flex;
+}
+

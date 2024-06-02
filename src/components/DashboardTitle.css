@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lexend:wght@100..900&family=Vollkorn+SC:wght@400;600;700;900&display=swap');
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.title{
+    font-size: larger;
+    color: #fff;
+    font-family: "Jost", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    align-self: center;
+}
+
+.context{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    margin-top: -0.7rem;
+   justify-content: flex-end;
+   gap: 1rem;
+   align-items: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(119, 10, 166, 0.462) 1px 1px 2px;
+    border: 1px solid #67036ea8;
+    border-radius: 4px;
+    padding: 5px;
+    width: 45%;
+    background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) );
+    height: 35px;
+    background-color: #030303;
+    max-width: 400px;
+    border-radius: 30px;
+  }
+  
+  .search-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+  
+  .search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px;
+    background: none;
+    color: rgb(180, 180, 180);
+  }
+
+  
+  .profile-context{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #67036ed1;
+    justify-content: center;
+    box-shadow: rgba(119, 10, 166, 0.462) 1px 1px 2px;
+    display: flex;
+    align-items: center;
+  }
+
+  .circle img{
+    position: relative;
+    height: 20px;
+    width: 20px;
+    box-shadow: rgba(119, 10, 166, 0.462) 1px 1px 2px;
+  }

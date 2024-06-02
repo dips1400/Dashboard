@@ -1,0 +1,48 @@
+.sidebarcontainer{
+    height: fit-content;
+    max-width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    padding : 0px;
+    display: flex;
+    gap: 8rem;
+    justify-content: center;
+    flex-direction: column;
+}
+ul li{
+    list-style: none;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.links li img{
+    height: 22px;
+    width: 22px;
+    max-width: 100%;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 20px 0px;
+}
+
+.profile{
+    margin-top: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
